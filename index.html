@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trattoria Sole — italialaista ruokaa Helsingissä</title>
+  <meta name="description" content="Trattoria Sole on pieni italialainen ravintola Bulevardilla. Tutustu ruokalistaan ja juomalistaan, katso aukioloajat ja varaa pöytä.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%237a2430'/%3E%3Ctext y='23' x='6' font-size='18'%3E%E2%98%80%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,620;1,9..144,500&family=Outfit:wght@360;480;560&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#sisalto">Siirry sisältöön</a>
+
+  <div class="topbar">
+    <p>Bulevardi 12, Helsinki</p>
+    <p>Ti–su avoinna · ma suljettu</p>
+    <p><a href="tel:+358942421800">09 4242 1800</a></p>
+  </div>
+
+  <header class="header" id="ylaosa">
+    <a class="brand" href="#etusivu">
+      <span class="brand-mark" aria-hidden="true">☀</span>
+      <span>
+        <strong>Trattoria Sole</strong>
+        <small>vuodesta 2014</small>
+      </span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="paavalikko">
+      <span class="sr-only">Avaa valikko</span>
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav" id="paavalikko" aria-label="Päävalikko">
+      <a href="#etusivu">Etusivu</a>
+      <a href="#ruokalista" data-menu-link>Menu</a>
+      <a href="#juomat">Juomat</a>
+      <a href="#aukioloajat">Aukioloajat</a>
+      <a href="#yhteystiedot">Yhteystiedot</a>
+      <a class="nav-cta" href="#varaus">Varaa pöytä</a>
+    </nav>
+  </header>
+
+  <main id="sisalto">
+    <section class="hero" id="etusivu">
+      <div class="hero-copy">
+        <p class="eyebrow">Italialainen ravintola · Helsinki</p>
+        <h1>Pöytä auringon puolella.</h1>
+        <p class="lede">Kotitekoista pastaa, kausiruokaa ja viinejä pienistä italialaisista tiloista. Tervetuloa Trattoria Soleen Bulevardille.</p>
+        <div class="hero-actions">
+          <a class="button" href="#varaus">Varaa pöytä</a>
+        </div>
+      </div>
+      <figure class="hero-photo">
+        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1400&q=80" alt="Katettu ravintolapöytä illalliselle">
+      </figure>
+    </section>
+
+    <section class="intro">
+      <p class="eyebrow">Tervetuloa</p>
+      <h2>Pieni trattoria Bulevardilla.</h2>
+      <p>Trattoria Sole on helsinkiläinen ravintola, jossa pasta tehdään aamulla ja kastikkeet hautuvat rauhassa. Viinit tulevat pieniltä tiloilta Italiasta.</p>
+      <p>Tule lounaalle arkisin tai jää illaksi. Lista seuraa sesonkia, ja pöydän voi varata etukäteen.</p>
+    </section>
+
+    <section class="food-menu" id="ruokalista">
+      <article class="menu-chapter">
+        <div class="section-head">
+          <p class="eyebrow">Menu</p>
+          <h2>Ruokalista</h2>
+          <p>Annokset on tarkoitettu jaettaviksi alkuun ja nautittaviksi rauhassa sen jälkeen. Gluteeniton pasta on saatavilla pyydettäessä.</p>
+        </div>
+        <h3>Antipasti</h3>
+        <ul class="dishes">
+          <li>
+            <div>
+              <h4>Bruschetta al pomodoro</h4>
+              <p>Paahdettua leipää, kypsiä tomaatteja, valkosipulia ja oliiviöljyä</p>
+            </div>
+            <span>9,50 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Burrata e basilico</h4>
+              <p>Kermaista burrataa, kirsikkatomaattia ja tuoretta basilikaa</p>
+            </div>
+            <span>14,00 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Caprese</h4>
+              <p>Tomaattia, mozzarella ja basilikaa kylmäpuristetussa oliiviöljyssä</p>
+            </div>
+            <span>13,50 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Prosciutto e melone</h4>
+              <p>Ilmakuivattua kinkkua ja kypsää melonia</p>
+            </div>
+            <span>15,00 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Carpaccio di manzo</h4>
+              <p>Ohutta naudanfileetä, rucolaa, parmesaania ja sitruunaa</p>
+            </div>
+            <span>16,50 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Vitello tonnato</h4>
+              <p>Ohutta vasikanlihaa ja tonnikalakastiketta</p>
+            </div>
+            <span>17,50 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Arancini</h4>
+              <p>Rapeita risottopalloja, mozzarella ja tomaattikastike</p>
+            </div>
+            <span>11,00 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Polpo alla griglia</h4>
+              <p>Grillattua mustekalaa, sitruunaa ja persiljaa</p>
+            </div>
+            <span>18,00 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Insalata di mare</h4>
+              <p>Marinoitua merenantimien salaattia, fenkolia ja sitruunaa</p>
+            </div>
+            <span>16,00 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Olive e focaccia</h4>
+              <p>Marinoituja oliiveja ja talon focacciaa rosmariiniöljyssä</p>
+            </div>
+            <span>8,00 €</span>
+          </li>
+        </ul>
+      </article>
+
+      <article class="menu-chapter">
+        <h3>Primi</h3>
+        <ul class="dishes">
+          <li>
+            <div>
+              <h4>Tagliatelle al ragù</h4>
+              <p>Hitaasti haudutettu naudanlihakastike ja parmesaani</p>
+            </div>
+            <span>18,50 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Lasagne al forno</h4>
+              <p>Uunissa paahdettua lasagnea, ragùa ja bechamelkastiketta</p>
+            </div>
+            <span>19,50 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Cacio e pepe</h4>
+              <p>Tonnarellia, pecorinoa ja mustapippuria</p>
+            </div>
+            <span>17,50 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Spaghetti alle vongole</h4>
+              <p>Simpukoita, valkoviiniä, valkosipulia ja persiljaa</p>
+            </div>
+            <span>21,00 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Linguine ai frutti di mare</h4>
+              <p>Katkarapuja, simpukoita ja kalmareita tomaattiliemessä</p>
+            </div>
+            <span>23,00 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Ravioli ricotta e spinaci</h4>
+              <p>Ricotta-pinaattitäyte, salvianvoi ja pinjansiemeniä</p>
+            </div>
+            <span>18,00 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Gnocchi al pesto</h4>
+              <p>Perunagnocchia, basilikapestoa ja parmesaania</p>
+            </div>
+            <span>18,00 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Pappardelle al cinghiale</h4>
+              <p>Leveää pastaa ja haudutettua villisikakastiketta</p>
+            </div>
+            <span>22,00 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Risotto ai funghi</h4>
+              <p>Carnaroli-riisiä, metsäsieniä ja timjamivoita</p>
+            </div>
+            <span>19,00 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Risotto allo zafferano</h4>
+              <p>Safranrisottoa ja paahdettua luuydintä</p>
+            </div>
+            <span>20,00 €</span>
+          </li>
+        </ul>
+      </article>
+
+      <article class="menu-chapter">
+        <h3>Secondi</h3>
+        <ul class="dishes">
+          <li>
+            <div>
+              <h4>Saltimbocca alla romana</h4>
+              <p>Vasikanleikettä, ilmakuivattua kinkkua ja salviaa</p>
+            </div>
+            <span>26,00 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Osso buco</h4>
+              <p>Haudutettua vasikanpotkaa, gremoladaa ja risottoa</p>
+            </div>
+            <span>29,00 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Cotoletta alla milanese</h4>
+              <p>Paneroitua vasikanleikettä ja sitruunaa</p>
+            </div>
+            <span>27,00 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Bistecca</h4>
+              <p>Grillattua naudan entrecôtea, rosmariinia ja oliiviöljyä</p>
+            </div>
+            <span>34,00 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Agnello al forno</h4>
+              <p>Uunissa kypsennettyä karitsaa, valkosipulia ja yrttejä</p>
+            </div>
+            <span>31,00 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Pollo alla cacciatora</h4>
+              <p>Kanaa tomaatissa, oliiveissa ja rosmariinissa</p>
+            </div>
+            <span>24,00 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Branzino al forno</h4>
+              <p>Uunissa paahdettua meriahventa, fenkolia ja sitruunaa</p>
+            </div>
+            <span>28,50 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Salmone in crosta</h4>
+              <p>Yrttikuorrutettua lohta ja paahdettua fenkolia</p>
+            </div>
+            <span>27,50 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Calamari alla griglia</h4>
+              <p>Grillattuja kalmareita, chiliä ja sitruunaa</p>
+            </div>
+            <span>23,00 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Melanzane alla parmigiana</h4>
+              <p>Munakoisoa, tomaattikastiketta ja mozzarella. Kasvis</p>
+            </div>
+            <span>19,50 €</span>
+          </li>
+        </ul>
+      </article>
+
+      <article class="menu-chapter">
+        <h3>Contorni</h3>
+        <p class="card-note">Lisukkeet sopivat jaettaviksi pöytään.</p>
+        <ul class="dishes">
+          <li>
+            <div>
+              <h4>Patate al rosmarino</h4>
+              <p>Rosmariiniperunoita uunista</p>
+            </div>
+            <span>6,50 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Verdure grigliate</h4>
+              <p>Grillattuja kausivihanneksia ja oliiviöljyä</p>
+            </div>
+            <span>7,50 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Spinaci saltati</h4>
+              <p>Pinaattia valkosipulissa ja sitruunassa</p>
+            </div>
+            <span>6,50 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Fagiolini</h4>
+              <p>Vihreitä papuja, mantelia ja chiliä</p>
+            </div>
+            <span>6,50 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Insalata mista</h4>
+              <p>Sekasalaattia, fenkolia ja sitruunavinaigrettea</p>
+            </div>
+            <span>6,00 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Pomodori arrosto</h4>
+              <p>Hitaasti paahdettuja tomaatteja ja basilikaa</p>
+            </div>
+            <span>6,50 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Polenta morbida</h4>
+              <p>Pehmeää polentaa ja parmesaania</p>
+            </div>
+            <span>6,50 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Caponata</h4>
+              <p>Sisilialaista munakoisoa, kaprista ja oliiveja</p>
+            </div>
+            <span>7,50 €</span>
+          </li>
+        </ul>
+      </article>
+
+      <article class="menu-chapter">
+        <h3>Dolci</h3>
+        <ul class="dishes">
+          <li>
+            <div>
+              <h4>Tiramisù</h4>
+              <p>Espressoa, mascarponea ja kaakaota. Talon resepti</p>
+            </div>
+            <span>9,00 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Panna cotta</h4>
+              <p>Vaniljaa ja marjakuorrutetta</p>
+            </div>
+            <span>8,50 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Cannoli siciliani</h4>
+              <p>Rapea kuori, ricottatäyte ja pistaasia</p>
+            </div>
+            <span>8,50 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Torta della nonna</h4>
+              <p>Vaniljaleivonnainen, pinjansiemeniä ja tomusokeria</p>
+            </div>
+            <span>8,50 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Crostata di frutta</h4>
+              <p>Kausihedelmiä ja vaniljakreemiä</p>
+            </div>
+            <span>8,00 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Gelato</h4>
+              <p>Kolme palloa: pistaasi, suklaa tai sitruuna</p>
+            </div>
+            <span>7,50 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Affogato</h4>
+              <p>Vaniljajäätelöä ja kuuma espresso</p>
+            </div>
+            <span>7,00 €</span>
+          </li>
+        </ul>
+        <p class="note">Kerrothan allergioista ja erityisruokavalioista varauksen yhteydessä.</p>
+      </article>
+    </section>
+
+    <section class="food-menu" id="juomat">
+      <article class="menu-chapter">
+        <div class="section-head">
+          <p class="eyebrow">Cantina</p>
+          <h2>Juomalista</h2>
+          <p>Lasillinen tai pullo. Kysy henkilökunnalta illan suositusta, jos et ole varma parituksesta.</p>
+        </div>
+        <h3>Viinit</h3>
+        <ul class="dishes">
+          <li>
+            <div>
+              <h4>Prosecco, Veneto</h4>
+              <p>Kuiva, päärynäinen kuohuviini</p>
+            </div>
+            <span>8 / 36 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Pinot Grigio, Friuli</h4>
+              <p>Raikas valkoviini, sitrusta ja omenaa</p>
+            </div>
+            <span>8,50 / 38 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Chianti Classico, Toscana</h4>
+              <p>Kirsikkaa ja yrttejä, sopii pastalle</p>
+            </div>
+            <span>9 / 42 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Barolo, Piemonte</h4>
+              <p>Täyteläinen punaviini juhlaillalliselle</p>
+            </div>
+            <span>14 / 68 €</span>
+          </li>
+        </ul>
+      </article>
+
+      <article class="menu-chapter">
+        <h3>Aperitiivit</h3>
+        <ul class="dishes">
+          <li>
+            <div>
+              <h4>Aperol Spritz</h4>
+              <p>Aperol, prosecco ja sooda</p>
+            </div>
+            <span>12,00 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Negroni</h4>
+              <p>Gin, Campari ja punainen vermutti</p>
+            </div>
+            <span>13,00 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Espresso Martini</h4>
+              <p>Vodka, kahvilikööri ja espresso</p>
+            </div>
+            <span>13,00 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Limoncello</h4>
+              <p>Jääkylmä sitruunalikööri, 4 cl</p>
+            </div>
+            <span>6,00 €</span>
+          </li>
+        </ul>
+      </article>
+
+      <article class="menu-chapter">
+        <h3>Kahvi ja tee</h3>
+        <ul class="dishes">
+          <li>
+            <div>
+              <h4>Espresso</h4>
+              <p>Tupla pyydettäessä</p>
+            </div>
+            <span>3,50 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Suodatinkahvi</h4>
+              <p>Tuore kannukahvi</p>
+            </div>
+            <span>3,50 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Cappuccino</h4>
+            </div>
+            <span>4,50 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Latte</h4>
+              <p>Espresso ja höyrytettyä maitoa</p>
+            </div>
+            <span>4,50 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Caffè corretto</h4>
+              <p>Espresso ja tilkka grappaa</p>
+            </div>
+            <span>6,50 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Tee</h4>
+              <p>Musta, vihreä tai kamomilla</p>
+            </div>
+            <span>3,50 €</span>
+          </li>
+        </ul>
+      </article>
+
+      <article class="menu-chapter">
+        <h3>Alkoholittomat</h3>
+        <ul class="dishes">
+          <li>
+            <div>
+              <h4>Limonata della casa</h4>
+              <p>Kotitekoinen sitruunalimonadi</p>
+            </div>
+            <span>5,00 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>San Pellegrino</h4>
+              <p>Kivennäisvesi, 0,5 l</p>
+            </div>
+            <span>4,50 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Aranciata</h4>
+              <p>Italialaista appelsiinilimonadia</p>
+            </div>
+            <span>4,50 €</span>
+          </li>
+          <li>
+            <div>
+              <h4>Spritz analcolico</h4>
+              <p>Alkoholiton spritz, appelsiinia ja yrttejä</p>
+            </div>
+            <span>8,00 €</span>
+          </li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="section" id="varaus">
+      <div class="reserve-layout">
+        <div>
+          <p class="eyebrow">Prenotazione</p>
+          <h2>Varaa pöytä</h2>
+          <p class="lede">Täytä lomake tai soita numeroon <a href="tel:+358942421800">09 4242 1800</a>. Vahvistamme varauksen tekstiviestillä tai puhelimitse.</p>
+
+          <h3 class="subhead">Varausohjeet</h3>
+          <ol class="steps">
+            <li>Valitse päivä, kellonaika ja seurueen koko. Pöytiä on kahdelle ja enintään kahdeksalle hengelle.</li>
+            <li>Samana päivänä tehtävät varaukset pyydämme viimeistään klo 15. Sen jälkeen soitathan suoraan ravintolaan.</li>
+            <li>Yli kahdeksan hengen seurueet ja yksityistilaisuudet varataan puhelimitse.</li>
+            <li>Pöytää pidetään 15 minuuttia varatun ajan jälkeen. Ilmoitathan myöhästymisestä.</li>
+            <li>Kirjoita lomakkeeseen allergiat ja toiveet, esimerkiksi ikkunapöytä tai lastenistuin.</li>
+          </ol>
+        </div>
+
+        <form class="reserve-form" id="varauslomake" novalidate>
+          <h3>Varaustiedot</h3>
+          <label>
+            Nimi
+            <input name="nimi" type="text" autocomplete="name" required>
+          </label>
+          <div class="form-row">
+            <label>
+              Päivä
+              <input name="paiva" type="date" required>
+            </label>
+            <label>
+              Kellonaika
+              <input name="aika" type="time" required min="11:00" max="21:30">
+            </label>
+          </div>
+          <div class="form-row">
+            <label>
+              Henkilömäärä
+              <select name="henkilot" required>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4" selected>4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+              </select>
+            </label>
+            <label>
+              Puhelin
+              <input name="puhelin" type="tel" autocomplete="tel" required placeholder="040 123 4567">
+            </label>
+          </div>
+          <label>
+            Toiveet ja allergiat
+            <textarea name="viesti" rows="3" placeholder="Esimerkiksi gluteeniton pasta tai ikkunapöytä"></textarea>
+          </label>
+          <button class="button" type="submit">Lähetä varauspyyntö</button>
+          <p class="form-status" id="varausviesti" role="status" hidden></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section section-hours" id="aukioloajat">
+      <div class="section-head">
+        <p class="eyebrow">Orari</p>
+        <h2>Aukioloajat</h2>
+        <p>Keittiö sulkeutuu tuntia ennen ravintolaa. Maanantaisin lepäämme.</p>
+      </div>
+      <table class="hours">
+        <caption class="sr-only">Ravintolan aukioloajat</caption>
+        <tbody>
+          <tr>
+            <th scope="row">Maanantai</th>
+            <td>Suljettu</td>
+          </tr>
+          <tr>
+            <th scope="row">Tiistai</th>
+            <td>11.00–22.00</td>
+          </tr>
+          <tr>
+            <th scope="row">Keskiviikko</th>
+            <td>11.00–22.00</td>
+          </tr>
+          <tr>
+            <th scope="row">Torstai</th>
+            <td>11.00–22.00</td>
+          </tr>
+          <tr>
+            <th scope="row">Perjantai</th>
+            <td>11.00–23.00</td>
+          </tr>
+          <tr>
+            <th scope="row">Lauantai</th>
+            <td>12.00–23.00</td>
+          </tr>
+          <tr>
+            <th scope="row">Sunnuntai</th>
+            <td>12.00–20.00</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="note">Lounas tarjoillaan tiistaista perjantaihin klo 11–15. Sunnuntailounas klo 12–16.</p>
+    </section>
+
+    <section class="section" id="yhteystiedot">
+      <div class="contact-layout">
+        <div>
+          <p class="eyebrow">Dove siamo</p>
+          <h2>Sijainti ja yhteystiedot</h2>
+          <address>
+            <strong>Trattoria Sole</strong><br>
+            Bulevardi 12<br>
+            00120 Helsinki
+          </address>
+          <ul class="contact-list">
+            <li><span>Puhelin</span> <a href="tel:+358942421800">09 4242 1800</a></li>
+            <li><span>Sähköposti</span> <a href="mailto:varaukset@trattoriasole.fi">varaukset@trattoriasole.fi</a></li>
+          </ul>
+          <p>Raitiovaunut 6 ja 3 pysähtyvät lähellä. Ravintolassa ei ole omaa pysäköintihallia, kadunvarressa on lyhytaikaista pysäköintiä.</p>
+          <a class="button" href="#varaus">Varaa pöytä</a>
+        </div>
+        <div class="map-wrap">
+          <iframe
+            title="Trattoria Solen sijainti kartalla, Bulevardi 12, Helsinki"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=24.9295%2C60.1608%2C24.9485%2C60.1678&amp;layer=mapnik&amp;marker=60.1643%2C24.9390"
+            loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p><strong>Trattoria Sole</strong> · Bulevardi 12, Helsinki</p>
+    <p><a href="#etusivu">Etusivulle</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
